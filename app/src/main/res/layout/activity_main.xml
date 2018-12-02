@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <EditText
+            android:id="@+id/et_yas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Yas"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/et_engel1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Birinci Engel Orani(%)"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/et_engel2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ikinci Engel Orani(%)"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/et_engel3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Ucuncu Engel Orani(%)"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/et_engel4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Dorduncu Engel Orani(%)"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/et_engel5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Besinci Engel Orani(%)"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btn_hesapla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="HESAPLA" />
+
+        <Button
+            android:id="@+id/btn_temizle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TEMIZLE" />
+
+        <TextView
+            android:id="@+id/tv_sonuc"
+            android:layout_width="match_parent"
+            android:layout_height="77dp" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
