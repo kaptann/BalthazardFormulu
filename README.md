@@ -1,2 +1,2 @@
 # BalthazardFormulu
-Android Studio ile kodlanmistir.
+Engel oranı hesaplayan android uygulama.
